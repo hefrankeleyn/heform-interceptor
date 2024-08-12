@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="io.github.hefren.heforminterceptor.dao.UserDao">
+
+    <resultMap id="rm_user" type="io.github.hefren.heforminterceptor.beans.User">
+        <result column="id" property="id"/>
+        <result column="name" property="name"/>
+        <result column="age" property="age"/>
+    </resultMap>
+
+    <select id="find" resultMap="rm_user">
+        select id, name, age from orm_test.user where id=#{id}
+    </select>
+
+    <select id="list" resultMap="rm_user">
+        select id, name, age from orm_test.user
+    </select>
+</mapper>
