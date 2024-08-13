@@ -1,6 +1,6 @@
-package io.github.hefren.heforminterceptor.service;
+package io.github.hefrankeleyn.heforminterceptor.service;
 
-import io.github.hefren.heforminterceptor.beans.User;
+import io.github.hefrankeleyn.heforminterceptor.beans.User;
 
 import java.util.List;
 

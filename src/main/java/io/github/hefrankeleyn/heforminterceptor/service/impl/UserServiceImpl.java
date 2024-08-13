@@ -1,8 +1,8 @@
-package io.github.hefren.heforminterceptor.service.impl;
+package io.github.hefrankeleyn.heforminterceptor.service.impl;
 
-import io.github.hefren.heforminterceptor.beans.User;
-import io.github.hefren.heforminterceptor.dao.UserDao;
-import io.github.hefren.heforminterceptor.service.UserService;
+import io.github.hefrankeleyn.heforminterceptor.beans.User;
+import io.github.hefrankeleyn.heforminterceptor.dao.UserDao;
+import io.github.hefrankeleyn.heforminterceptor.service.UserService;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;
 

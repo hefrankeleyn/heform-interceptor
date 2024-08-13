@@ -1,4 +1,4 @@
-package io.github.hefren.heforminterceptor;
+package io.github.hefrankeleyn.heforminterceptor;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

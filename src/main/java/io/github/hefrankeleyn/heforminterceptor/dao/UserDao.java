@@ -1,6 +1,6 @@
-package io.github.hefren.heforminterceptor.dao;
+package io.github.hefrankeleyn.heforminterceptor.dao;
 
-import io.github.hefren.heforminterceptor.beans.User;
+import io.github.hefrankeleyn.heforminterceptor.beans.User;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 

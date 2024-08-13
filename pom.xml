@@ -8,7 +8,7 @@
         <version>3.3.2</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>io.github.hefren</groupId>
+    <groupId>io.github.hefrankeleyn</groupId>
     <artifactId>heform-interceptor</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>heform-interceptor</name>

@@ -1,4 +1,4 @@
-package io.github.hefren.heforminterceptor.beans;
+package io.github.hefrankeleyn.heforminterceptor.beans;
 
 import com.google.common.base.MoreObjects;
 

@@ -1,4 +1,4 @@
-package io.github.hefren.heforminterceptor.intercepter;
+package io.github.hefrankeleyn.heforminterceptor.intercepter;
 
 import org.apache.ibatis.executor.statement.StatementHandler;
 import org.apache.ibatis.mapping.BoundSql;
