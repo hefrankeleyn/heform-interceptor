@@ -24,6 +24,11 @@ public class UserServiceImpl implements UserService {
     }
 
     @Override
+    public User find02(Integer id, String name) {
+        return userDao.find02(id, name);
+    }
+
+    @Override
     public List<User> list() {
         return userDao.list();
     }

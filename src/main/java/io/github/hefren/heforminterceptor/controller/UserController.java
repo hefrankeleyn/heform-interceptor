@@ -25,6 +25,12 @@ public class UserController {
         return userService.find(id);
     }
 
+
+    @RequestMapping(value = "/find02", method = RequestMethod.GET)
+    public User find02(Integer id, String name) {
+        return userService.find02(id, name);
+    }
+
     @RequestMapping(value = "/list", method = RequestMethod.GET)
     public List<User> list() {
         return userService.list();

@@ -10,5 +10,6 @@ import java.util.List;
 public interface UserDao {
 
     User find(@Param("id") Integer id);
+    User find02(@Param("id") Integer id, @Param("name") String name);
     List<User> list();
 }

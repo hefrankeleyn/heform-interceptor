@@ -2,6 +2,11 @@
 GET http://localhost:8080/userController/find?id=1
 Accept: application/json
 
+### find02
+GET http://localhost:8080/userController/find02?id=1&name=hef01
+Accept: application/json
+
+
 
 ### list
 GET http://localhost:8080/userController/list

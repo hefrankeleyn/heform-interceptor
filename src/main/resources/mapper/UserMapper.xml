@@ -14,6 +14,10 @@
         select id, name, age from orm_test.user where id=#{id}
     </select>
 
+    <select id="find02" resultMap="rm_user">
+        select id, name, age from orm_test.user where id=#{id} and name=#{name}
+    </select>
+
     <select id="list" resultMap="rm_user">
         select id, name, age from orm_test.user
     </select>
